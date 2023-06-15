@@ -1,13 +1,10 @@
 #include<stdio.h>
 /**
- * main:main function
- *
- * Description:
- *
- * Return:0 (Success)
- */
+ *  *main - This is The main function
+ *   *Return: 0
+ *    */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+		puts("\"Programming is like building a multilingual puzzle");
+			return (0);
 }
