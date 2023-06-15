@@ -1,2 +1,2 @@
 #!/bin/bashgi
-gcc -E $CFILE
+gcc -E $CFILE -o c
