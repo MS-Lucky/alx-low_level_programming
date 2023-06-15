@@ -1,13 +1,12 @@
-#!/bin/bash
 #include <stdio.h>
 
 /**
- * main: Entry point
+ * main:main function 
  *
- * Return: 0 success
+ * Return: 0 
  */
 int main(void)
 {
-	printf("Programming is like building a multilingual puzzle\n");
-	return (0);
+	puts("Programming is like building a multilingual puzzle.");
+	return 0;
 }
