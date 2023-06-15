@@ -1,7 +1,10 @@
 #include<stdio.h>
 /**
  * main:main function
- * Return:0
+ *
+ * Description:
+ *
+ * Return:0 (Success)
  */
 int main(void)
 {
