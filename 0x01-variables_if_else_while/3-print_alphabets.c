@@ -16,8 +16,10 @@ int main(void)
 	uppercase = toupper(alphabet);
 
 	putchar(alphabet);
-	putchar(uppercase);
 	}
+	putchar(uppercase);
+	{
 	putchar('\n');
+	}
 	return (0);
 }
