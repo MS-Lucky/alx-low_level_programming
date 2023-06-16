@@ -12,7 +12,11 @@ int main(void)
 	int n;
 	int lastDigit;
 
+<<<<<<< HEAD
 	srand(time(0);
+=======
+	srand(time(0)
+>>>>>>> 0380865b7740ec81394c1d1e91dc5e4990c12dfe
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	lastDigit = n % 10;
