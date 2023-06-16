@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
  * maint - Entry of the program
  * Discription : Print out lowwwer case and uppder case follws by newline
@@ -7,18 +7,19 @@
  */
 int main(void)
 {
-	char alphabet;
-	char uppercase;
+	char alphabet, uppercase;
 	
-	uppercase = toupper(alphabet);
 
-	for (alphabet = 'a'; alphabet= 'z'; alphabet++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		putchar(alphabet);
+	putchar(alphabet);
 	}
-		putchar(uppercase);
-		{
-			putchar('\n');
-			return (0);
-		}
+	uppercase = toupper(alphabet);
+	
+	putchar(uppercase);
+	{
+	putchar('\n');
+	
+	return (0);
+	}
 }
