@@ -8,11 +8,13 @@
  */
 int main(void)
 {
-	char alphabet, uppercase;
-	uppercase = toupper(alphabet);
-	
+	char alphabet;
+	char uppercase;
+
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
+	uppercase = toupper(alphabet);
+
 	putchar(alphabet);
 	putchar(uppercase);
 	}
