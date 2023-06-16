@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - Entry of the program
+ * main - starting point of  the program
+ *
  * Discription : Print out lowwwer case and uppder case follws by newline
  * Return:0
  */
