@@ -4,6 +4,9 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/* main - Starting point of the program   */
+
+/* Return: 0*/
 int main(void)
 {
 	int n;
@@ -24,6 +27,5 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-				
 	return (0);
 }
