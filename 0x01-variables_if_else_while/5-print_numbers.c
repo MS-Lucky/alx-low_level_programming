@@ -5,7 +5,7 @@
  * Description : To print digit single digit
  * Return:0
  */
-int main(vvoid)
+int main(void)
 {
 	int digit;
 
