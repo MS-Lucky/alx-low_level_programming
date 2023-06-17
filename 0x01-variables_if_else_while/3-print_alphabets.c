@@ -8,13 +8,14 @@
  */
 int main(void)
 {
-	char alphabet;
+	char lowercase;
 	char uppercase;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 	{
-		uppercase = toupper(alphabet);
-		putchar(alphabet);
+		putchar(lowercase);
+	}
+	for (uppercase = 'A'; uppercase = 'Z'; uppercase++)
 	{
 		putchar(uppercase);
 	}
