@@ -17,7 +17,7 @@ int main()
 	putchar('7');
 	putchar('8');
 	putchar('9');
-	putchar('\n')
+	putchar('\n');
 
 	return(0);
 }
