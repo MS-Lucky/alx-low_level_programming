@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
+ * main - Start of a program
+ * Description : To print digit single digit
+ * Return:0
  */
 int main(vvoid)
 {
