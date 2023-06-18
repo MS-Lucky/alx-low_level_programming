@@ -5,10 +5,10 @@
  * Description : the program will print all possible combaination of single digits
  * Return:0
  */
-int maint(void)
+int main(void)
 {
 	int i, j;
-	
+
 	for (i=0; i <=9; i++)
 	{
 		for (j=0; j <=9; j++)
@@ -18,7 +18,7 @@ int maint(void)
 
 		if (i < 9 || j < 9)
 		{
-		putchar (',')
+		putchar(',');
 		putchar(' ');
 		}
 		}
