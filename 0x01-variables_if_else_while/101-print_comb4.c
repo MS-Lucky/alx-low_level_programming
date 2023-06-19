@@ -1,13 +1,12 @@
 #include <stdio.h>
+
 /**
  * main: start of the program
  * Discription : print out three combination numbers
  * Return:0
  */
-
 int main() 
 {
-    // Write C code here
     int i;
     int j;
     int k;
