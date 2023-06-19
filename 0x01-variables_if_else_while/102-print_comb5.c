@@ -14,16 +14,13 @@ int main(void)
 	{
 		for (j = i; j < 100; j++)
 		{
-			if (i < 10 && j < 10)
-			{
-				putchar('0' + i / 10);
-				putchar('0' + i % 10);
-				putchar(' ');
-				putchar('0' + j / 10);
-				putchar('0' + j % 10);
-				putchar(',');
-				putchar(' ');
-			}
+			putchar('0' + i / 10);
+			putchar('0' + i % 10);
+			putchar(' ');
+			putchar('0' + j / 10);
+			putchar('0' + j % 10);
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
