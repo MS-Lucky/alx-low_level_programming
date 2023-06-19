@@ -5,7 +5,7 @@
  * Description : oout put description
  * Return:0
  */
-int main() 
+int main(void) 
 {
 	int i;
 	int j;
@@ -33,5 +33,6 @@ int main()
 				putchar (',');
 			}
 		}
+	}
 		return 0;
 	}
