@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * maint - Start of a program
+ * main - Start of a program
  * Description : oout put description
  * Return:0
  */
-int main(void) 
+int main(void)
 {
 	int i;
 	int j;
