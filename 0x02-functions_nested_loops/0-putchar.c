@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * main - Start of a program
 * Description : The program prints out Putchar
@@ -7,7 +6,13 @@
 */
 int main(void)
 {
-	_putchar('_putchar');
+	char str[] = "putchar";
+	int i = 0;
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
 	_putchar('\n');
 	return (0);
 }
