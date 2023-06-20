@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Start of a program
+ * print_alphabet - Start of a program
  * Description: will print small alphabets
  * Return:0
  */
