@@ -2,7 +2,7 @@
 /**
 * main - Start of a program
 * Description : The program prints out Putchar
-* Return :0
+* Return:0
 */
 int main(void)
 {
