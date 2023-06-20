@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * main - Start of a program
+ * Description: will print small alphabets
+ * Return:0
+ */
 void print_alphabet(void)
 {
 	int i = 0;
