@@ -3,7 +3,7 @@
 /**
  * _isalpha - entery point
  * Description: identify a character
- * @c - compile
+ * @c- compile
  * Return:0
  */
 int _isalpha(int c)
