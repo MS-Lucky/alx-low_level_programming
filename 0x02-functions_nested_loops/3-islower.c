@@ -2,7 +2,7 @@
 
 /**
  * _islower- the main program
- * @c: alphabet check 
+ * @c: alphabet check
  * Description: islower
  * Return:0
  */
