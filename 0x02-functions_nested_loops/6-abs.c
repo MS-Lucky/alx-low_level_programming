@@ -2,13 +2,14 @@
 #include <stdlib.h>
 
 /**
- * _abs - writes the character c to stdout
- * @c: The character to print
+ * _abs - give abs value
+ * @x: any int input
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Description: print abs value
+ *
+ * Return: 0 always
  */
-int _abs (int i)
+int _abs(int i)
 {
-	return (abs(int i));
+	return (abs(i));
 }
