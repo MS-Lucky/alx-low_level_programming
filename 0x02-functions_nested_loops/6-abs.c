@@ -3,7 +3,7 @@
 
 /**
  * _abs - give abs value
- * @x: any int input
+ * @i: any int input
  *
  * Description: print abs value
  *
