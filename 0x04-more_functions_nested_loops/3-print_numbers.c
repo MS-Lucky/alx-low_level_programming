@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_numbers -print numbers 0 -9
- * Description: print numbers -9 in order
+ * Description: print numbers 0 - 9 in order
+ * Return: void;
  */
 void print_numbers(void)
 {
