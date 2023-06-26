@@ -1,11 +1,11 @@
 #include "main.h"
-
 /**
- * main - check the code 
+ * reset_to_98 -update value by using pointer
+ * @n: input number
  *
- * Return: Always 0.
-*/
+ * Description: dummy function
+ */
 void reset_to_98(int *n)
 {
-    int *n = 98;
+	*n = 98;
 }
