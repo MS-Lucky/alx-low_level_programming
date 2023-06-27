@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 /**
  * print_rev -print string in reverse order
  * @s: input string
@@ -7,20 +7,11 @@
  */
 void print_rev(char *s)
 {
-	int len;
-	int i;
-	char *cp = s;
+	int len = strlen(str);
 
-	len = 1;
-	while (*s != '\0')
+	for (int i = len - 1; i >= 0; i--) 
 	{
-		len++;
-		s++;
+		printf("%c", str[i]);
 	}
-	i = len - 2;
-	for (i = len - 2; i >= 0; i--)
-	{
-		_putchar(cp[i]);
-	}
-	_putchar('\n');
+	printf("\n");
 }
