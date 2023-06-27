@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  * print_rev -print string in reverse order
  * @s: input string
