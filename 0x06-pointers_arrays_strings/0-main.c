@@ -8,15 +8,11 @@
  */
 int main(void)
 {
-	char s1[98] = "Hello ";
-	char s2[] = "World!\n";
-	char *ptr;
+	char str1[20] = "Hello, ";
+	char str2[] = "World!";
 
-	printf("%s\n", s1);
-	printf("%s", s2);
-	ptr = _strcat(s1, s2);
-	printf("%s", s1);
-	printf("%s", s2);
-	printf("%s", ptr);
+	printf("Before concatenation: %s\n", str1);
+	_strcat(str1, str2);
+	printf("After concatenation: %s\n", str1);
 	return (0);
 }
