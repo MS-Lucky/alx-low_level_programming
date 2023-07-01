@@ -1,11 +1,11 @@
-#include <main.h>
+#include "main.h"
 /**
- * main
- * Description: ss
- * Return:0
+ * reset_to_98 -update value by using pointer
+ * @n: input number
+ *
+ * Description: dummy function
  */
-include void reset_to_98(int *n)
+void reset_to_98(int *n)
 {
-	* n = 98;
+	*n = 98;
 }
-
