@@ -28,7 +28,5 @@ void print_diagsums(int *a, int size)
 			sumR = sumR + a[i];
 		col++;
 	}
-
-	printf("%d, %d\n", sumL, sumR);
+	_putchar("%d, %d\n", sumL, sumR);
 }
-
