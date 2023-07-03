@@ -1,5 +1,4 @@
-#include <unistd.h>
-
+#include "main.h"
 /**
  * print_chessboard - writes the character c to stdout
  * @a: The character to print
