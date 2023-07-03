@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	char *str;
-
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	print_rev(str);
+	print_triangle(2);
+	print_triangle(10);
+	print_triangle(1);
+	print_triangle(0);
 	return (0);
 }
