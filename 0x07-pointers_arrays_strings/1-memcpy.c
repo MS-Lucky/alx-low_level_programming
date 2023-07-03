@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * _memset - writes the character c to stdout
+ * _memcpy - writes the character c to stdout
  * @n: The character to print
  * @src: char
  * @dest: char
