@@ -1,16 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * _puts_recursion - prints a string, followed by a new line.
+ * @s: pointer to string.
  *
- * Return: Always 0 (Success)
+ * Return: void.
  */
-int main(void)
+void _puts_recursion(char *s)
 {
-	char *str = "Hello, Holberton!";
-
-	puts(str);
-
-	return (0);
+	if (*s == '\0')
+	{
+		_putchar('\n');
+		return;
+	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
 
