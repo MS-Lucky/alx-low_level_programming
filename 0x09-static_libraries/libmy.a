@@ -1,3 +1,4 @@
+#!/bin/bash
 gcc -c _putchar.c -o _putchar.o
 gcc -c _islower.c -o _islower.o
 gcc -c _isalpha.c -o _isalpha.o
