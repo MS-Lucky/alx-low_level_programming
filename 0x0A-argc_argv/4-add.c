@@ -1,17 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
-/**
- * main -start of the program
- * @argc: program counter
- * @argv: argument pointer
- * Return:0
- */
 
 int main(int argc, char *argv[])
 {
 	int result = 0;
-	int i, num;
+	int i, j, num;
 
 	if (argc == 1)
 	{
@@ -20,18 +13,15 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (argv[i][j] < '0' || argv[i][j] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
 		num = atoi(argv[i]);
-
-		if (num == 0)
-		{
-			printf("Error\n");
-			return (1);
-		}
-		if (num < 0)
-		{
-			printf("Error\n");
-			return (1);
-		}
 		result += num;
 	}
 	printf("%d\n", result);
