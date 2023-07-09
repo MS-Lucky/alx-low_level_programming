@@ -1,21 +1,37 @@
 #include "main.h"
-
 /**
- * is_prime_number - checks if a number is prime
- * @n: integer to check
+ * divr -divide by n
+ * @n: num input
+ * @i: divisor
  *
- * Return: 1 if n is prime, otherwise 0
+ * Description: check prime
+ *
+ * Return: divisors
+ */
+int divr(int n, int i)
+{
+	int ii;
+
+	ii = i;
+	if (ii > n / 2)
+		return (1);
+	if (n % ii == 0)
+		return (0);
+	return (divr(n, ii + 1));
+}
+/**
+ * is_prime_number -check if num is prime
+ * @n: input num
+ *
+ * Description: return if num is prime or not
+ *
+ * Return: 1 if prime else 0
  */
 int is_prime_number(int n)
 {
-	int i;
-
-	if (n <= 1)
+	if (n < 0)
 		return (0);
-	for (i = 2; i < n; i++)
-	{
-		if (n % i == 0)
-			return (0);
-	}
-	return (1);
+	if (n == 1)
+		return (0);
+	return (divr(n, 2));
 }
