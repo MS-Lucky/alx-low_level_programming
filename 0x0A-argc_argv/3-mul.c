@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main -Start of the program
+ * @argc: counter
+ * @argv:program pointer
+ * return:0
+ */
 int main(int argc, char *argv[])
 {
 	int num1, num2, result;
