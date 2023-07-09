@@ -5,6 +5,7 @@
  * main -start of the program
  * @argc: program counter
  * @argv: pointer vector
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
