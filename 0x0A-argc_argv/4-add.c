@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * maint -start of the program
+ * main -start of the program
  * @argc: program counter
  * @argv: argument pointer
+ * Return:0
  */
 
 int main(int argc, char *argv[])
