@@ -1,21 +1,21 @@
 #!/bin/bash
-gcc -c _putchar.c -o _putchar.o
-gcc -c _islower.c -o _islower.o
-gcc -c _isalpha.c -o _isalpha.o
-gcc -c _abs.c -o _abs.o
-gcc -c _isupper.c -o _isupper.o
-gcc -c _isdigit.c -o _isdigit.o
-gcc -c _strlen.c -o _strlen.o
-gcc -c _puts.c -o _puts.o
-gcc -c *_strcpy.c *_strcpy.o
-gcc -c _atoi.c _atoi.o
-gcc -c *_strcat.c *_strcat.o
-gcc -c *_strncat.c *_strncat.o
-gcc -c *_strncpy.c *_strncpy.o
-gcc -c _strcmp.c _strcmp.o
-gcc -c *_memset.c *_memset.o
-gcc -c *_memcpy.c *_memcpy.o
-gcc -c *_strchr.c *_strchr.o
-gcc -c *_strspn.c _strspn.o
-gcc -c *_strpbrk.c *_strpbrk.o
-gcc -c *_strstr.c *_strstr.o
+_putchar.o
+_islower.o
+_isalpha.o
+_abs.o
+_isupper.o
+_isdigit.o
+_strlen.o
+_puts.o
+*_strcpy.o
+_atoi.o
+*_strcat.o
+*_strncat.o
+*_strncpy.o
+_strcmp.o
+*_memset.o
+*_memcpy.o
+*_strchr.o
+_strspn.o
+*_strpbrk.o
+*_strstr.o
