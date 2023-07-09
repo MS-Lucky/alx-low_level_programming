@@ -3,7 +3,8 @@
 
 /**
  * main- start of the progam
- * Description: print it self
+ * @argc: counter
+ * @argv: pointer vector
  * Return:0
  */
 int main(int argc, char *argv[])
