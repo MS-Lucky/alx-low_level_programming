@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <stdlib.h>
 #include <string.h>
 /**
@@ -18,7 +17,6 @@ char *_strdup(char *str)
 		return (NULL);
 	strcpy(new_str, str);
 	return (new_str);
-=======
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -41,5 +39,4 @@ int main(void)
 	printf("%s\n", s);
 	free(s);
 	return (0);
->>>>>>> 00e40592838597d7dd0a39c5ebccecc3a1c254e2
 }
