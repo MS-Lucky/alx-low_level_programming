@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 /**
- * malloc_checked -function header
- * @b: argumnet
- * Return:0
+ * malloc_checked -function to allocate memory
+ * @b: allocated size
+ * Return:allocated memory
  */
 void *malloc_checked(unsigned int b)
 {
@@ -11,7 +12,6 @@ void *malloc_checked(unsigned int b)
 
 	if (ptr == NULL)
 	{
-		printf("Error: malloc failed\n");
 		exit(98);
 	}
 	return (ptr);
